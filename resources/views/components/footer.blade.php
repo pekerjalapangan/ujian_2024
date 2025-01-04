@@ -6,13 +6,14 @@
     <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
         <div class=" flex row gap-3 ">
-      <img src="{{asset('mabes.png')}}" class="w-[3rem] h-[3rem]" />
-      <img src="{{asset('logo-ad.png')}}" class="w-[3rem] h-[3rem]" />
-      <img src="{{asset('logo-al.png')}}" class="w-[3rem] h-[3rem]" />
-      <img src="{{asset('au.png')}}" class="w-[3rem] h-[3rem]" />
+        <img src="{{asset('logo.png')}}" class="w-[3rem] h-[3rem]" />
+        <img src="{{asset('ojk.png')}}" class="w-[5rem]" />
+        <img src="{{asset('bi.png')}}" class="w-[6rem] h-full" />
         </div>
         <p class="max-w-xs mt-4 text-sm text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
+          <span class=" text-orange-600">Prabot</span>Ku.com adalah suatu website e-comers yang menyediakan
+          segala perabotan rumah tangga lengkap dengan kualiatas modern
+          dan pastinya hemat dan murah
         </p>
         <div class="flex mt-8 space-x-6 text-white">
           <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
@@ -53,10 +54,10 @@
             Company
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
-            <a class="hover:opacity-75" href> About </a>
-            <a class="hover:opacity-75" href> Meet the Team </a>
-            <a class="hover:opacity-75" href> History </a>
-            <a class="hover:opacity-75" href> Careers </a>
+            <a href=" /" class="hover:opacity-75"> Beranda </a>
+            <a href=" /" class="hover:opacity-75"> Kategori </a>
+            <a href=" /semuaproduk" class="hover:opacity-75"> Semua Produk </a>
+            <a href=" /service" class="hover:opacity-75"> Service </a>
           </nav>
         </div>
         <div>
@@ -64,11 +65,10 @@
             Services
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
-            <a class="hover:opacity-75" href> 1on1 Coaching </a>
-            <a class="hover:opacity-75" href> Company Review </a>
-            <a class="hover:opacity-75" href> Accounts Review </a>
-            <a class="hover:opacity-75" href> HR Consulting </a>
-            <a class="hover:opacity-75" href> SEO Optimisation </a>
+            <a href=" /rumahtangga" class="hover:opacity-75" href> Prabot Rumah Tangga </a>
+            <a href=" /mandi" class="hover:opacity-75" href> Prabot Kamar Mandi </a>
+            <a href=" /tidur" class="hover:opacity-75" href> Prabot Kamar Tidur </a>
+            <a href=" /semuaproduk" class="hover:opacity-75" href> Semua Produk </a>
           </nav>
         </div>
         <div>
@@ -76,26 +76,20 @@
             Helpful Links
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
-            <a class="hover:opacity-75" href> Contact </a>
+            <a href=" https://wa.me/6285648080941" target=" _blank" class="hover:opacity-75" href> Contact </a>
             <a class="hover:opacity-75" href> FAQs </a>
-            <a class="hover:opacity-75" href> Live Chat </a>
           </nav>
         </div>
         <div>
           <p class="font-medium">
             Legal
           </p>
-          <nav class="flex flex-col mt-4 space-y-2 text-sm text-white">
-            <a class="hover:opacity-75" href> Privacy Policy </a>
-            <a class="hover:opacity-75" href> Terms &amp; Conditions </a>
-            <a class="hover:opacity-75" href> Returns Policy </a>
-            <a class="hover:opacity-75" href> Accessibility </a>
-          </nav>
+          
         </div>
       </div>
     </div>
     <p class="mt-8 text-xs text-white">
-      © PrabotKu.com 2024
+      © <span class=" text-orange-600">Prabot</span>Ku.com 2024
     </p>
   </div>
 </footer>
@@ -110,13 +104,14 @@
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
           <div class=" flex row gap-3 flex justify-center items-center">
-        <img src="{{asset('mabes.png')}}" class="w-[3rem] h-[3rem]" />
-        <img src="{{asset('logo-ad.png')}}" class="w-[3rem] h-[3rem]" />
-        <img src="{{asset('logo-al.png')}}" class="w-[3rem] h-[3rem]" />
-        <img src="{{asset('au.png')}}" class="w-[3rem] h-[3rem]" />
+            <img src="{{asset('logo.png')}}" class="w-[3rem] h-[3rem]" />
+            <img src="{{asset('ojk.png')}}" class="w-[5rem]" />
+            <img src="{{asset('bi.png')}}" class="w-[6rem] h-full" />
           </div>
           <p class="max-w-xs mt-4 text-sm text-white text-center mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
+            <span class=" text-orange-600">Prabot</span>Ku.com adalah suatu website e-comers yang menyediakan
+            segala perabotan rumah tangga lengkap dengan kualiatas modern
+            dan pastinya hemat dan murah
         </p>
           <div class="flex mt-8 space-x-6 text-white flex justify-center items-center">
             <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
@@ -157,10 +152,10 @@
               Company
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-white flx row justify-center items-center">
-              <a class="hover:opacity-75" href> About </a>
-              <a class="hover:opacity-75" href> Meet the Team </a>
-              <a class="hover:opacity-75" href> History </a>
-              <a class="hover:opacity-75" href> Careers </a>
+            <a href=" /" class="hover:opacity-75"> Beranda </a>
+            <a href=" /" class="hover:opacity-75"> Kategori </a>
+            <a href=" /semuaproduk" class="hover:opacity-75"> Semua Produk </a>
+            <a href=" /service" class="hover:opacity-75"> Service </a>
             </nav>
           </div>
           <div>
@@ -168,11 +163,10 @@
               Services
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-white flex row justify-center items-center">
-              <a class="hover:opacity-75" href> 1on1 Coaching </a>
-              <a class="hover:opacity-75" href> Company Review </a>
-              <a class="hover:opacity-75" href> Accounts Review </a>
-              <a class="hover:opacity-75" href> HR Consulting </a>
-              <a class="hover:opacity-75" href> SEO Optimisation </a>
+              <a href=" /rumahtangga" class="hover:opacity-75" href> Prabot Rumah Tangga </a>
+            <a href=" /mandi" class="hover:opacity-75" href> Prabot Kamar Mandi </a>
+            <a href=" /tidur" class="hover:opacity-75" href> Prabot Kamar Tidur </a>
+            <a href=" /semuaproduk" class="hover:opacity-75" href> Semua Produk </a>
             </nav>
           </div>
           <div>
@@ -180,9 +174,8 @@
               Helpful Links
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-white flex row justify-center items-center">
-              <a class="hover:opacity-75" href> Contact </a>
+              <a href=" https://wa.me/6285648080941" target=" _blank" class="hover:opacity-75" href> Contact </a>
               <a class="hover:opacity-75" href> FAQs </a>
-              <a class="hover:opacity-75" href> Live Chat </a>
             </nav>
           </div>
           <div>
@@ -190,16 +183,13 @@
               Legal
             </p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-white flex  justify-center items-center">
-              <a class="hover:opacity-75" href> Privacy Policy </a>
-              <a class="hover:opacity-75" href> Terms &amp; Conditions </a>
-              <a class="hover:opacity-75" href> Returns Policy </a>
-              <a class="hover:opacity-75" href> Accessibility </a>
+              
             </nav>
           </div>
         </div>
       </div>
       <p class="mt-8 text-xs text-white flex justify-center items-center">
-        © TNI ANGKATAN LAUT 2024
+        © <span class=" text-orange-600">Prabot</span>Ku.com 2024
       </p>
     </div>
   </footer>

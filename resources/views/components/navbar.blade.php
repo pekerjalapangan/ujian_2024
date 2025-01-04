@@ -6,6 +6,7 @@
     </div>
 
     <!-- Desktop Navigation -->
+    <section>
     <div class="hidden md:flex row justify-center items-center gap-6">
         <a href="/"><p class=" hover:text-orange-600 hover:underline underline-offset-8 cursor-pointer duration-500">Beranda</p></a>
         <div class="relative group">
@@ -17,12 +18,14 @@
             </div>
         </div>
         <a href=" /semuaproduk"><p class=" hover:text-orange-600 hover:underline underline-offset-8 cursor-pointer duration-500">Semua Produk</p></a>
-        <a><p class=" hover:text-orange-600 hover:underline underline-offset-8 cursor-pointer duration-500">Service</p></a>
-        <a href=" https://wa.me/6285648080941">
+        <a href=" /service"><p class=" hover:text-orange-600 hover:underline underline-offset-8 cursor-pointer duration-500">Service</p></a>
+        <a href=" https://wa.me/6285648080941" target=" _blank">
         <div>
             <button class="bg-green-600 text-white hover:bg-orange-600 duration-500 shadow-lg p-2 rounded-lg">Contact Me</button>
+        
         </div>
         </a>
+        
     </div>
 
     <!-- Mobile Hamburger Menu -->
@@ -57,9 +60,9 @@
             </div>
         </div>
         <a href=" /semuaproduk"><p class="hover:text-orange-600 hover:underline underline-offset-8 cursor-pointer duration-500">Semua Produk</p></a>
-        <a href=" "><p class="hover:text-orange-600 hover:underline underline-offset-8 cursor-pointer duration-500">Service</p></a>
-        <a>
-        <div class=" https://wa.me/6285648080941">
+        <a href="/service"><p class="hover:text-orange-600 hover:underline underline-offset-8 cursor-pointer duration-500">Service</p></a>
+        <a href=" https://wa.me/6285648080941" target="_blank">
+        <div class="">
             <button class="bg-green-600 text-white hover:bg-orange-600 p-2 rounded-lg w-[7rem]">Contact Me</button>
         </div>
         </a>
@@ -150,3 +153,15 @@
 }
 
 </style>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+

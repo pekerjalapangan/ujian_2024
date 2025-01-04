@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="icon" class="w-[15rem]" href="{{ asset('logo.png') }}" type="image/x-icn">
+    <title>Prabot Rumah Tangga</title>
     @vite('resources/css/app.css')
 </head>
 <body>
     {{-- NavBar --}}
     @include('components.navbar')
-    <section class=" max-md:hidden">
+    <section class=" max-md:hidden pt-[5rem]">
     {{-- Dekstop --}}
-    <div class=" pt-[5rem] flex justify-center items-center">
-        <h1 class=" text-4xl font-bold">
-            Kategori
-        </h1>
-    </div>
     {{-- Card section1 Dekstop --}}
     <section class=" flex row justify-center items-center pt-[1.5rem] gap-4 ">
     {{-- Card1 --}}
@@ -33,7 +29,7 @@
             </h1>
             {{-- Button --}}
             <div class=" flex justify-center items-center pt-[1rem]">
-            <a href=" https://wa.me/6285648080941">
+            <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
             <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                 Beli Sekarang
             </button>
@@ -57,10 +53,12 @@
             </h1>
             {{-- Button --}}
             <div class=" flex justify-center items-center pt-[1rem]">
-            <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
-                Beli Sekarang
-            </button>
-            </div>
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
+                <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
+                    Beli Sekarang
+                </button>
+                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -79,10 +77,12 @@
             </h1>
             {{-- Button --}}
             <div class=" flex justify-center items-center pt-[1rem]">
-            <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
-                Beli Sekarang
-            </button>
-            </div>
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
+                <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
+                    Beli Sekarang
+                </button>
+                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -100,11 +100,14 @@
                 Rp.99.0000
             </h1>
             {{-- Button --}}
+            {{-- Button --}}
             <div class=" flex justify-center items-center pt-[1rem]">
-            <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
-                Beli Sekarang
-            </button>
-            </div>
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
+                <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
+                    Beli Sekarang
+                </button>
+                </a>
+                </div>
             </div>
         </div>
     </div>
@@ -125,10 +128,12 @@
                     Rp.130.0000
                 </h1>
                 {{-- Button --}}
-                <div class=" flex justify-center items-center pt-[1rem]">
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -147,10 +152,12 @@
                     Rp.150.000
                 </h1>
                 {{-- Button --}}
-                <div class=" flex justify-center items-center pt-[1rem]">
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -169,10 +176,12 @@
                     Rp.450.000
                 </h1>
                 {{-- Button --}}
-                <div class=" flex justify-center items-center pt-[1rem]">
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -191,10 +200,12 @@
                     Rp.50.000
                 </h1>
                 {{-- Button --}}
-                <div class=" flex justify-center items-center pt-[1rem]">
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -203,13 +214,8 @@
     </section>
 
 
-    <section class="md:hidden">
+    <section class="md:hidden pt-[5rem]">
         {{-- Mobile--}}
-        <div class=" pt-[5rem] flex justify-center items-center">
-            <h1 class=" text-2xl text-red-600 font-bold">
-                Kategori
-            </h1>
-        </div>
         {{-- Card section1 Mobile --}}
         <section class=" flex row justify-center items-center grid grid-cols-2 pt-[1.5rem] gap-2 ">
         {{-- Card1 --}}
@@ -224,10 +230,13 @@
                 <p class=" text-[1rem] font-bold">
                     Rp.130.000
                 </p>
-                <div class=" flex justify-center items-center pt-[1rem]">
+                {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -245,10 +254,13 @@
                 <p class=" text-[1rem] font-bold">
                     Rp.120.000
                 </p>
-                <div class=" flex justify-center items-center pt-[1rem]">
+                {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -267,10 +279,13 @@
                 <p class=" text-[1rem] font-bold">
                     Rp.120.000
                 </p>
-                <div class=" flex justify-center items-center pt-[1rem]">
+                {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -289,10 +304,13 @@
                 <p class=" text-[1rem] font-bold">
                     Rp.99.000
                 </p>
-                <div class=" flex justify-center items-center pt-[1rem]">
+                {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
                 <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
                     Beli Sekarang
                 </button>
+                </a>
                 </div>
                 </div>
             </div>
@@ -318,13 +336,14 @@
                     <p class=" text-[1rem] font-bold">
                         Rp.130.000
                     </p>
-                    <div class=" flex justify-center items-center pt-[1rem]">
-                    <a href="https://wa.me/6285648080941?text=Saya%20Endik%20saya%20ingin%20beli%20televisi%20Anda" target=" _blank">
-                    <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white mt-[-1rem]">
-                        Beli Sekarang
-                    </button>
-                    </a>
-                    </div>
+                    {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
+                <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
+                    Beli Sekarang
+                </button>
+                </a>
+                </div>
                     </div>
                 </div>
             </div>
@@ -341,11 +360,14 @@
                     <p class=" text-[1rem] font-bold">
                         Rp.150.000
                     </p>
-                    <div class=" flex justify-center items-center pt-[1rem]">
-                    <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
-                        Beli Sekarang
-                    </button>
-                    </div>
+                    {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
+                <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
+                    Beli Sekarang
+                </button>
+                </a>
+                </div>
                     </div>
                 </div>
             </div>
@@ -363,11 +385,14 @@
                     <p class=" text-[1rem] font-bold">
                         Rp.450.000
                     </p>
-                    <div class=" flex justify-center items-center pt-[1rem]">
-                    <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
-                        Beli Sekarang
-                    </button>
-                    </div>
+                    {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
+                <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
+                    Beli Sekarang
+                </button>
+                </a>
+                </div>
                     </div>
                 </div>
             </div>
@@ -385,11 +410,14 @@
                     <p class=" text-[1rem] font-bold">
                         Rp.50.000
                     </p>
-                    <div class=" flex justify-center items-center pt-[1rem]">
-                    <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
-                        Beli Sekarang
-                    </button>
-                    </div>
+                    {{-- Button --}}
+            <div class=" flex justify-center items-center pt-[1rem]">
+                <a href=" https://wa.me/85648080941?text=Saya%20ingin%20beli%20produk%20ini" target=" _blank">
+                <button class=" bg-orange-600 text-white  p-2 rounded-md duration-500 shadow-lg hover:bg-green-600 hover:text-white">
+                    Beli Sekarang
+                </button>
+                </a>
+                </div>
                     </div>
                 </div>
             </div>
