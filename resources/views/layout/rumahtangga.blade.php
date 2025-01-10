@@ -212,6 +212,14 @@
         </div>
         </section>
     </section>
+                {{-- Button --}}
+                <div class=" flex justify-center items-center p-[2rem]">
+                    <a href="/rumahtangga/rumahtangga1">
+                        <button class=" bg-orange-600 hover:bg-green-600 text-white p-2 px-[5rem] shadow-lg duration-500 rounded-lg ">
+                            Next Produk
+                        </button>
+                    </a>
+                </div>
 
 
     <section class="md:hidden pt-[5rem]">

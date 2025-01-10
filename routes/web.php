@@ -37,4 +37,10 @@ Route::get('/service', function () {
     return view('layout.service');
 });
 
+Route::get('/rumahtangga/rumahtangga1', function () {
+    return view('layout.rumahtangga1');
+});
+
+
+
 
